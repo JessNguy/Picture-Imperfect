@@ -16,11 +16,13 @@ namespace Picture_Imperfect
         {
             InitializeComponent();
 
-            Form f = this.FindForm();
-            f.Controls.Remove(this);
+           // Form f = this.FindForm();
+           //// f.Controls.Remove(this);
 
-            GameScreen gs = new GameScreen();
-            f.Controls.Add(gs);
+           // GameScreen gs = new GameScreen();
+           // f.Controls.Add(gs);
+
+            pictureBox3.Parent = pictureBox1;
         }
     }
 }
