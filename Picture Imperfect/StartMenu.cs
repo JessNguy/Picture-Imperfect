@@ -27,5 +27,6 @@ namespace Picture_Imperfect
             CopyScreen cs = new CopyScreen();
             f.Controls.Add(cs);
         }
+
     }
 }

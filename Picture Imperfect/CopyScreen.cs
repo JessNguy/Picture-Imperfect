@@ -22,7 +22,9 @@ namespace Picture_Imperfect
            // GameScreen gs = new GameScreen();
            // f.Controls.Add(gs);
 
-            pictureBox3.Parent = pictureBox1;
+            pictureBoxShirt.Parent = pictureBoxHead;
+            pictureBoxMouth.Parent = pictureBoxHead;
+
         }
     }
 }

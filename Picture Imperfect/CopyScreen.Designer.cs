@@ -28,78 +28,83 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pictureBoxSymbol = new System.Windows.Forms.PictureBox();
+            this.pictureBoxMouth = new System.Windows.Forms.PictureBox();
+            this.pictureBoxShirt = new System.Windows.Forms.PictureBox();
+            this.pictureBoxHead = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSymbol)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMouth)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxShirt)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHead)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox4
+            // pictureBoxSymbol
             // 
-            this.pictureBox4.Location = new System.Drawing.Point(139, 427);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(193, 142);
-            this.pictureBox4.TabIndex = 3;
-            this.pictureBox4.TabStop = false;
+            this.pictureBoxSymbol.Image = global::Picture_Imperfect.Properties.Resources.Superman_Symbol;
+            this.pictureBoxSymbol.Location = new System.Drawing.Point(221, 641);
+            this.pictureBoxSymbol.Name = "pictureBoxSymbol";
+            this.pictureBoxSymbol.Size = new System.Drawing.Size(404, 230);
+            this.pictureBoxSymbol.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBoxSymbol.TabIndex = 3;
+            this.pictureBoxSymbol.TabStop = false;
             // 
-            // pictureBox2
+            // pictureBoxMouth
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = global::Picture_Imperfect.Properties.Resources.Superman_Mouth;
-            this.pictureBox2.Location = new System.Drawing.Point(338, 427);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(200, 89);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
+            this.pictureBoxMouth.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxMouth.Image = global::Picture_Imperfect.Properties.Resources.Superman_Mouth;
+            this.pictureBoxMouth.Location = new System.Drawing.Point(344, 364);
+            this.pictureBoxMouth.Name = "pictureBoxMouth";
+            this.pictureBoxMouth.Size = new System.Drawing.Size(130, 99);
+            this.pictureBoxMouth.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBoxMouth.TabIndex = 1;
+            this.pictureBoxMouth.TabStop = false;
             // 
-            // pictureBox3
+            // pictureBoxShirt
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.Location = new System.Drawing.Point(378, 138);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(298, 100);
-            this.pictureBox3.TabIndex = 2;
-            this.pictureBox3.TabStop = false;
+            this.pictureBoxShirt.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxShirt.Image = global::Picture_Imperfect.Properties.Resources.Superman_Shirt;
+            this.pictureBoxShirt.Location = new System.Drawing.Point(13, 354);
+            this.pictureBoxShirt.Name = "pictureBoxShirt";
+            this.pictureBoxShirt.Size = new System.Drawing.Size(787, 591);
+            this.pictureBoxShirt.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBoxShirt.TabIndex = 2;
+            this.pictureBoxShirt.TabStop = false;
             // 
-            // pictureBox1
+            // pictureBoxHead
             // 
-            this.pictureBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pictureBox1.Image = global::Picture_Imperfect.Properties.Resources.Superman_Head;
-            this.pictureBox1.Location = new System.Drawing.Point(-17, -39);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(672, 301);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.pictureBoxHead.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxHead.Image = global::Picture_Imperfect.Properties.Resources.Superman_Head;
+            this.pictureBoxHead.Location = new System.Drawing.Point(209, 0);
+            this.pictureBoxHead.Name = "pictureBoxHead";
+            this.pictureBoxHead.Size = new System.Drawing.Size(378, 486);
+            this.pictureBoxHead.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBoxHead.TabIndex = 0;
+            this.pictureBoxHead.TabStop = false;
             // 
             // CopyScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Picture_Imperfect.Properties.Resources.Superman_Head;
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBoxMouth);
+            this.Controls.Add(this.pictureBoxHead);
+            this.Controls.Add(this.pictureBoxSymbol);
+            this.Controls.Add(this.pictureBoxShirt);
             this.Name = "CopyScreen";
             this.Size = new System.Drawing.Size(800, 750);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSymbol)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMouth)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxShirt)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHead)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBoxHead;
+        private System.Windows.Forms.PictureBox pictureBoxMouth;
+        private System.Windows.Forms.PictureBox pictureBoxShirt;
+        private System.Windows.Forms.PictureBox pictureBoxSymbol;
     }
 }

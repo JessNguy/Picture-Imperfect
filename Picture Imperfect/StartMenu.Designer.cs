@@ -32,13 +32,12 @@
             this.buttonControls = new System.Windows.Forms.Button();
             this.buttonGameRule = new System.Windows.Forms.Button();
             this.labelStartInfo = new System.Windows.Forms.Label();
-            this.pictureBoxPlayer1 = new System.Windows.Forms.PictureBox();
-            this.labelTitle = new System.Windows.Forms.Label();
-            this.pictureBoxPlayer2 = new System.Windows.Forms.PictureBox();
             this.pictureBoxGame = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPlayer1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPlayer2)).BeginInit();
+            this.pictureBoxPlayer2 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxPlayer1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxGame)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPlayer2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPlayer1)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonStart
@@ -100,23 +99,13 @@
             this.labelStartInfo.TabIndex = 3;
             this.labelStartInfo.Text = "label1";
             // 
-            // pictureBoxPlayer1
+            // pictureBoxGame
             // 
-            this.pictureBoxPlayer1.Location = new System.Drawing.Point(37, 193);
-            this.pictureBoxPlayer1.Name = "pictureBoxPlayer1";
-            this.pictureBoxPlayer1.Size = new System.Drawing.Size(138, 118);
-            this.pictureBoxPlayer1.TabIndex = 4;
-            this.pictureBoxPlayer1.TabStop = false;
-            // 
-            // labelTitle
-            // 
-            this.labelTitle.AutoSize = true;
-            this.labelTitle.Font = new System.Drawing.Font("Open Sans", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTitle.Location = new System.Drawing.Point(194, 86);
-            this.labelTitle.Name = "labelTitle";
-            this.labelTitle.Size = new System.Drawing.Size(365, 47);
-            this.labelTitle.TabIndex = 5;
-            this.labelTitle.Text = "PICTURE IMPERFECT";
+            this.pictureBoxGame.Location = new System.Drawing.Point(421, 160);
+            this.pictureBoxGame.Name = "pictureBoxGame";
+            this.pictureBoxGame.Size = new System.Drawing.Size(345, 313);
+            this.pictureBoxGame.TabIndex = 7;
+            this.pictureBoxGame.TabStop = false;
             // 
             // pictureBoxPlayer2
             // 
@@ -126,13 +115,13 @@
             this.pictureBoxPlayer2.TabIndex = 6;
             this.pictureBoxPlayer2.TabStop = false;
             // 
-            // pictureBoxGame
+            // pictureBoxPlayer1
             // 
-            this.pictureBoxGame.Location = new System.Drawing.Point(421, 160);
-            this.pictureBoxGame.Name = "pictureBoxGame";
-            this.pictureBoxGame.Size = new System.Drawing.Size(345, 313);
-            this.pictureBoxGame.TabIndex = 7;
-            this.pictureBoxGame.TabStop = false;
+            this.pictureBoxPlayer1.Location = new System.Drawing.Point(37, 193);
+            this.pictureBoxPlayer1.Name = "pictureBoxPlayer1";
+            this.pictureBoxPlayer1.Size = new System.Drawing.Size(138, 118);
+            this.pictureBoxPlayer1.TabIndex = 4;
+            this.pictureBoxPlayer1.TabStop = false;
             // 
             // StartMenu
             // 
@@ -141,7 +130,6 @@
             this.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.Controls.Add(this.pictureBoxGame);
             this.Controls.Add(this.pictureBoxPlayer2);
-            this.Controls.Add(this.labelTitle);
             this.Controls.Add(this.pictureBoxPlayer1);
             this.Controls.Add(this.labelStartInfo);
             this.Controls.Add(this.buttonGameRule);
@@ -149,9 +137,9 @@
             this.Controls.Add(this.buttonStart);
             this.Name = "StartMenu";
             this.Size = new System.Drawing.Size(800, 750);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPlayer1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPlayer2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxGame)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPlayer2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPlayer1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -164,7 +152,6 @@
         private System.Windows.Forms.Button buttonGameRule;
         private System.Windows.Forms.Label labelStartInfo;
         private System.Windows.Forms.PictureBox pictureBoxPlayer1;
-        private System.Windows.Forms.Label labelTitle;
         private System.Windows.Forms.PictureBox pictureBoxPlayer2;
         private System.Windows.Forms.PictureBox pictureBoxGame;
     }
