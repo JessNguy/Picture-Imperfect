@@ -12,7 +12,8 @@ namespace Picture_Imperfect
 {
     public partial class StartMenu : UserControl
     {
-        bool buttonPress = false;
+        bool playerLock = false;
+        bool startClick = false;
 
         public StartMenu()
         {
@@ -22,33 +23,54 @@ namespace Picture_Imperfect
             //player 2
             //c,v,x,z
             //blue, yellow, red, green
-                  
-        }
 
-        private void buttonStart_Click(object sender, EventArgs e)
-        {
-            if (buttonPress == true)
+                if (playerLock == true && startClick == true)
             {
                 Form f = this.FindForm();
                 f.Controls.Remove(this);
 
                 CopyScreen cs = new CopyScreen();
                 f.Controls.Add(cs);
-            }
+            }   
         }
 
-        private void StartMenu_KeyDown(object sender, KeyEventArgs e)
+        private void StartMenu_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
         {
             switch (e.KeyCode)
             {
-                case Keys.Space:
+                case Keys.N:
                     pictureBoxPlayer1.Image = Properties.Resources.Gobutton;
-                    buttonPress = true;
+                    playerLock = true;
                     break;
-
-                case Keys.Z:
+                case Keys.V:
                     pictureBoxPlayer2.Image = Properties.Resources.Gobutton;
-                    buttonPress = true;
+                    playerLock = true;
+                    break;
+                case Keys.B:
+                    //change text colour to blue
+                    labelStartInfo.Text =
+                    "Hit the circle to stop the correct parts as they appear." + "\n"
+                    +" Try to re-create the original picture.";
+                    break;
+                case Keys.C:
+                    //change text colour to blue
+                    labelStartInfo.Text =
+                    "Hit the circle to stop the correct parts as they appear." + "\n"
+                    +"Try to re-create the original picture.";
+                    break;
+                case Keys.Space:
+                    //change text colour to green
+                    labelStartInfo.Text = "Hit the Blue Button";
+                    break;
+                case Keys.Z:
+                    //change text colour to green
+                    labelStartInfo.Text = "Hit the Blue Button";
+                    break;
+                case Keys.M:
+                    startClick = true;
+                    break;
+                case Keys.X:
+                    startClick = true;
                     break;
                 default:
                     break;
