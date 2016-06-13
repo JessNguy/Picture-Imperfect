@@ -161,6 +161,21 @@
   <ItemGroup>
     <None Include="Resources\Strip 2.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Superman Full Body.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S.SHead.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S.Shirt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S.SMouth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S.Symbol.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

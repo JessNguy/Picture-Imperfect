@@ -44,7 +44,7 @@
             this.pictureBoxMouth.Image = global::Picture_Imperfect.Properties.Resources.Strip_2;
             this.pictureBoxMouth.Location = new System.Drawing.Point(13, 237);
             this.pictureBoxMouth.Name = "pictureBoxMouth";
-            this.pictureBoxMouth.Size = new System.Drawing.Size(800, 148);
+            this.pictureBoxMouth.Size = new System.Drawing.Size(800, 153);
             this.pictureBoxMouth.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBoxMouth.TabIndex = 1;
             this.pictureBoxMouth.TabStop = false;
@@ -63,7 +63,7 @@
             // pictureBoxSymbol
             // 
             this.pictureBoxSymbol.Image = global::Picture_Imperfect.Properties.Resources.Strip_4;
-            this.pictureBoxSymbol.Location = new System.Drawing.Point(25, 664);
+            this.pictureBoxSymbol.Location = new System.Drawing.Point(13, 669);
             this.pictureBoxSymbol.Name = "pictureBoxSymbol";
             this.pictureBoxSymbol.Size = new System.Drawing.Size(800, 267);
             this.pictureBoxSymbol.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -74,7 +74,7 @@
             // 
             this.pictureBoxShirt.BackColor = System.Drawing.Color.Transparent;
             this.pictureBoxShirt.Image = global::Picture_Imperfect.Properties.Resources.Strip_3;
-            this.pictureBoxShirt.Location = new System.Drawing.Point(13, 391);
+            this.pictureBoxShirt.Location = new System.Drawing.Point(13, 396);
             this.pictureBoxShirt.Name = "pictureBoxShirt";
             this.pictureBoxShirt.Size = new System.Drawing.Size(800, 267);
             this.pictureBoxShirt.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;

@@ -103,6 +103,46 @@ namespace Picture_Imperfect.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap S_SHead {
+            get {
+                object obj = ResourceManager.GetObject("S_SHead", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap S_Shirt {
+            get {
+                object obj = ResourceManager.GetObject("S_Shirt", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap S_SMouth {
+            get {
+                object obj = ResourceManager.GetObject("S_SMouth", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap S_Symbol {
+            get {
+                object obj = ResourceManager.GetObject("S_Symbol", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap StartMenu {
             get {
                 object obj = ResourceManager.GetObject("StartMenu", resourceCulture);
@@ -146,6 +186,16 @@ namespace Picture_Imperfect.Properties {
         internal static System.Drawing.Bitmap Strip_4 {
             get {
                 object obj = ResourceManager.GetObject("Strip_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Superman_Full_Body {
+            get {
+                object obj = ResourceManager.GetObject("Superman_Full_Body", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
