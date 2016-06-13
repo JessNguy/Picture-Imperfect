@@ -24,14 +24,6 @@ namespace Picture_Imperfect
             //c,v,x,z
             //blue, yellow, red, green
 
-                if (playerLock == true && startClick == true)
-            {
-                Form f = this.FindForm();
-                f.Controls.Remove(this);
-
-                CopyScreen cs = new CopyScreen();
-                f.Controls.Add(cs);
-            }   
         }
 
         private void StartMenu_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
@@ -68,9 +60,27 @@ namespace Picture_Imperfect
                     break;
                 case Keys.M:
                     startClick = true;
+
+                    if (playerLock == true && startClick == true)
+                    {
+                        Form f = this.FindForm();
+                        f.Controls.Remove(this);
+
+                        CopyScreen cs = new CopyScreen();
+                        f.Controls.Add(cs);
+                    }
                     break;
                 case Keys.X:
                     startClick = true;
+
+                    if (playerLock == true && startClick == true)
+                    {
+                        Form f = this.FindForm();
+                        f.Controls.Remove(this);
+
+                        CopyScreen cs = new CopyScreen();
+                        f.Controls.Add(cs);
+                    }
                     break;
                 default:
                     break;

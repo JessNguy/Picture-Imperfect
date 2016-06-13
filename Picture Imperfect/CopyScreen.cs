@@ -26,5 +26,6 @@ namespace Picture_Imperfect
             pictureBoxMouth.Parent = pictureBoxHead;
 
         }
+        
     }
 }

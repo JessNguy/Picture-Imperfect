@@ -146,6 +146,21 @@
   <ItemGroup>
     <None Include="Resources\Gobutton.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Strip 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Strip 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Strip 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Strip_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Strip 2.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
