@@ -15,6 +15,9 @@ namespace Picture_Imperfect
         public GameScreen()
         {
             InitializeComponent();
+
+
+           
         }
     }
 }

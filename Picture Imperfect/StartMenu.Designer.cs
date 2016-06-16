@@ -33,6 +33,7 @@
             this.pictureBoxPlayer2 = new System.Windows.Forms.PictureBox();
             this.labelPlayer1 = new System.Windows.Forms.Label();
             this.labelPlayer2 = new System.Windows.Forms.Label();
+            this.labelInstruction = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPlayer1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPlayer2)).BeginInit();
             this.SuspendLayout();
@@ -94,12 +95,25 @@
             this.labelPlayer2.TabIndex = 7;
             this.labelPlayer2.Text = "PLAYER 2";
             // 
+            // labelInstruction
+            // 
+            this.labelInstruction.AutoSize = true;
+            this.labelInstruction.BackColor = System.Drawing.Color.Transparent;
+            this.labelInstruction.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelInstruction.ForeColor = System.Drawing.Color.Gold;
+            this.labelInstruction.Location = new System.Drawing.Point(44, 392);
+            this.labelInstruction.Name = "labelInstruction";
+            this.labelInstruction.Size = new System.Drawing.Size(211, 29);
+            this.labelInstruction.TabIndex = 8;
+            this.labelInstruction.Text = "PRESS YELLOW";
+            // 
             // StartMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.BackgroundImage = global::Picture_Imperfect.Properties.Resources.StartMenu;
+            this.Controls.Add(this.labelInstruction);
             this.Controls.Add(this.labelPlayer2);
             this.Controls.Add(this.labelPlayer1);
             this.Controls.Add(this.pictureBoxPlayer2);
@@ -121,5 +135,6 @@
         private System.Windows.Forms.PictureBox pictureBoxPlayer2;
         private System.Windows.Forms.Label labelPlayer1;
         private System.Windows.Forms.Label labelPlayer2;
+        private System.Windows.Forms.Label labelInstruction;
     }
 }

@@ -176,6 +176,54 @@
   <ItemGroup>
     <None Include="Resources\S.Symbol.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captain America Full.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captain America Head.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captain America Mouth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captain America Shirt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captain America Symbol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flash full body.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flash Head.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flash Mouth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flash Shirt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flash Symbol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S.Shirt size.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SHead Size.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SMouth Size.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Superman FB Size.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Symbol Size.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S_Shirt_size.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

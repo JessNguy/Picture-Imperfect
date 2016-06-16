@@ -63,6 +63,106 @@ namespace Picture_Imperfect.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Captain_America_Full {
+            get {
+                object obj = ResourceManager.GetObject("Captain_America_Full", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Captain_America_Head {
+            get {
+                object obj = ResourceManager.GetObject("Captain_America_Head", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Captain_America_Mouth {
+            get {
+                object obj = ResourceManager.GetObject("Captain_America_Mouth", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Captain_America_Shirt {
+            get {
+                object obj = ResourceManager.GetObject("Captain_America_Shirt", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Captain_America_Symbol {
+            get {
+                object obj = ResourceManager.GetObject("Captain_America_Symbol", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Flash_full_body {
+            get {
+                object obj = ResourceManager.GetObject("Flash_full_body", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Flash_Head {
+            get {
+                object obj = ResourceManager.GetObject("Flash_Head", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Flash_Mouth {
+            get {
+                object obj = ResourceManager.GetObject("Flash_Mouth", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Flash_Shirt {
+            get {
+                object obj = ResourceManager.GetObject("Flash_Shirt", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Flash_Symbol {
+            get {
+                object obj = ResourceManager.GetObject("Flash_Symbol", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Game_Screen {
             get {
                 object obj = ResourceManager.GetObject("Game_Screen", resourceCulture);
@@ -103,9 +203,9 @@ namespace Picture_Imperfect.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap S_SHead {
+        internal static System.Drawing.Bitmap S_Shirt_size {
             get {
-                object obj = ResourceManager.GetObject("S_SHead", resourceCulture);
+                object obj = ResourceManager.GetObject("S_Shirt_size", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +213,9 @@ namespace Picture_Imperfect.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap S_Shirt {
+        internal static System.Drawing.Bitmap SHead_Size {
             get {
-                object obj = ResourceManager.GetObject("S_Shirt", resourceCulture);
+                object obj = ResourceManager.GetObject("SHead_Size", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,19 +223,9 @@ namespace Picture_Imperfect.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap S_SMouth {
+        internal static System.Drawing.Bitmap SMouth_Size {
             get {
-                object obj = ResourceManager.GetObject("S_SMouth", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap S_Symbol {
-            get {
-                object obj = ResourceManager.GetObject("S_Symbol", resourceCulture);
+                object obj = ResourceManager.GetObject("SMouth_Size", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,9 +243,9 @@ namespace Picture_Imperfect.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Strip_1 {
+        internal static System.Drawing.Bitmap Superman_FB_Size {
             get {
-                object obj = ResourceManager.GetObject("Strip_1", resourceCulture);
+                object obj = ResourceManager.GetObject("Superman_FB_Size", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,79 +253,9 @@ namespace Picture_Imperfect.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Strip_2 {
+        internal static System.Drawing.Bitmap Symbol_Size {
             get {
-                object obj = ResourceManager.GetObject("Strip_2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Strip_3 {
-            get {
-                object obj = ResourceManager.GetObject("Strip_3", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Strip_4 {
-            get {
-                object obj = ResourceManager.GetObject("Strip_4", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Superman_Full_Body {
-            get {
-                object obj = ResourceManager.GetObject("Superman_Full_Body", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Superman_Head {
-            get {
-                object obj = ResourceManager.GetObject("Superman_Head", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Superman_Mouth {
-            get {
-                object obj = ResourceManager.GetObject("Superman_Mouth", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Superman_Shirt {
-            get {
-                object obj = ResourceManager.GetObject("Superman_Shirt", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Superman_Symbol {
-            get {
-                object obj = ResourceManager.GetObject("Superman_Symbol", resourceCulture);
+                object obj = ResourceManager.GetObject("Symbol_Size", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

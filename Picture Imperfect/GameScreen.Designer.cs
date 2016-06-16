@@ -37,7 +37,6 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::Picture_Imperfect.Properties.Resources.Strip_1;
             this.pictureBox1.Location = new System.Drawing.Point(56, 21);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(305, 116);
@@ -48,8 +47,7 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = global::Picture_Imperfect.Properties.Resources.Strip_2;
-            this.pictureBox2.Location = new System.Drawing.Point(56, 91);
+            this.pictureBox2.Location = new System.Drawing.Point(56, 180);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(305, 116);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
