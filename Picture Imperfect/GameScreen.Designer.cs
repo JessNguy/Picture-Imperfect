@@ -34,8 +34,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Picture_Imperfect.Properties.Resources.Captain_America_Full;
-            this.pictureBox1.Location = new System.Drawing.Point(20, 16);
+            this.pictureBox1.Location = new System.Drawing.Point(388, 3);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(372, 339);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;

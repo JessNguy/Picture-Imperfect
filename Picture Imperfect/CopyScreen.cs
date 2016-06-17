@@ -18,7 +18,7 @@ namespace Picture_Imperfect
         //make game go through the order and pause and lock in keypress
         //high score XML file
 
-        Image[] body;
+        public static Image[] body;
 
         public CopyScreen()
         {
