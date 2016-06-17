@@ -19,5 +19,10 @@ namespace Picture_Imperfect
 
            
         }
+
+        private void GameScreen_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

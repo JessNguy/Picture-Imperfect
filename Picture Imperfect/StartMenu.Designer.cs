@@ -42,12 +42,13 @@
             // 
             this.labelStartInfo.AutoSize = true;
             this.labelStartInfo.BackColor = System.Drawing.Color.Transparent;
-            this.labelStartInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelStartInfo.Location = new System.Drawing.Point(16, 574);
+            this.labelStartInfo.Font = new System.Drawing.Font("OCR A Std", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelStartInfo.ForeColor = System.Drawing.Color.Green;
+            this.labelStartInfo.Location = new System.Drawing.Point(3, 612);
             this.labelStartInfo.Name = "labelStartInfo";
-            this.labelStartInfo.Size = new System.Drawing.Size(85, 29);
+            this.labelStartInfo.Size = new System.Drawing.Size(393, 29);
             this.labelStartInfo.TabIndex = 3;
-            this.labelStartInfo.Text = "label1";
+            this.labelStartInfo.Text = "Hit the Blue Button";
             // 
             // pictureBoxPlayer1
             // 
@@ -101,7 +102,7 @@
             this.labelInstruction.BackColor = System.Drawing.Color.Transparent;
             this.labelInstruction.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelInstruction.ForeColor = System.Drawing.Color.Gold;
-            this.labelInstruction.Location = new System.Drawing.Point(44, 392);
+            this.labelInstruction.Location = new System.Drawing.Point(89, 390);
             this.labelInstruction.Name = "labelInstruction";
             this.labelInstruction.Size = new System.Drawing.Size(211, 29);
             this.labelInstruction.TabIndex = 8;

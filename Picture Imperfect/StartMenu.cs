@@ -39,24 +39,26 @@ namespace Picture_Imperfect
                     playerLock = true;
                     break;
                 case Keys.B:
-                    //change text colour to blue
-                    labelStartInfo.Text =
-                    "Hit the circle to stop the correct parts as they appear." + "\n"
-                    +" Try to re-create the original picture.";
+                    labelStartInfo.ForeColor = Color.Blue;
+                    labelStartInfo.Text = 
+                    "Hit the circle to stop the correct" + "\n"
+                    + "parts as they appear. Try to"
+                    + "\n" + "re - create the original picture.";
                     break;
                 case Keys.C:
-                    //change text colour to blue
+                    labelStartInfo.ForeColor = Color.Blue;
                     labelStartInfo.Text =
-                    "Hit the circle to stop the correct parts as they appear." + "\n"
-                    +"Try to re-create the original picture.";
+                    "Hit the circle to stop the correct" + "\n"
+                    + "parts as they appear. Try to"
+                    + "\n" +"re - create the original picture.";
                     break;
                 case Keys.Space:
-                    //change text colour to green
-                    labelStartInfo.Text = "Hit the Blue Button";
+                    labelStartInfo.ForeColor = Color.Green;
+                    labelStartInfo.Text = "Hit the Blue Button.";
                     break;
                 case Keys.Z:
-                    //change text colour to green
-                    labelStartInfo.Text = "Hit the Blue Button";
+                    labelStartInfo.ForeColor = Color.Green;
+                    labelStartInfo.Text = "Hit the Blue Button.";
                     break;
                 case Keys.M:
                     startClick = true;
