@@ -63,6 +63,16 @@ namespace Picture_Imperfect.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Base {
+            get {
+                object obj = ResourceManager.GetObject("Base", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Captain_America_Full {
             get {
                 object obj = ResourceManager.GetObject("Captain_America_Full", resourceCulture);

@@ -52,7 +52,7 @@ namespace Picture_Imperfect
 
         private void CopyScreen_Load(object sender, EventArgs e)
         {
-            for (int x = 0; x <= 3; x++)
+            for (int x = 0; x <= 1; x++)
             {
                 Refresh();
                 Thread.Sleep(1000);
@@ -60,7 +60,7 @@ namespace Picture_Imperfect
                 labelCount.Text = Convert.ToString(x);
             }
 
-            if (labelCount.Text == "3")
+            if (labelCount.Text == "1")
             {
                 Form f = this.FindForm();
                 GameScreen gs = new GameScreen();

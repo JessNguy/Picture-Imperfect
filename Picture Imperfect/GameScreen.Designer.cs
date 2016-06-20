@@ -34,7 +34,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(388, 3);
+            this.pictureBox1.Location = new System.Drawing.Point(17, 395);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(372, 339);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -45,7 +45,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Picture_Imperfect.Properties.Resources.Game_Screen;
+            this.BackgroundImage = global::Picture_Imperfect.Properties.Resources.Game_Screen_White;
             this.Controls.Add(this.pictureBox1);
             this.Name = "GameScreen";
             this.Size = new System.Drawing.Size(800, 750);

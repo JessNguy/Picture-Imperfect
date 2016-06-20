@@ -58,6 +58,7 @@
     <Compile Include="CopyScreen.Designer.cs">
       <DependentUpon>CopyScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="fullBody.cs" />
     <Compile Include="GameScreen.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -223,6 +224,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\S_Shirt_size.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Base.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captain_America_Head.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captain_America_Symbol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flash_Symbol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flash_Shirt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flash_Head.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flash_Mouth.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
