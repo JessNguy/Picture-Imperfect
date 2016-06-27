@@ -18,11 +18,21 @@ namespace Picture_Imperfect
         //make game go through the order and pause and lock in keypress
         //high score XML file
 
-        public static Image[] body;
 
+        public static Image[] body;
+        int partNum;
+        int shirt;
+        int symbol;
+        int mouth;
+        int head;
+        Random ranNum = new Random();
+        
+     
         public CopyScreen()
         {
             InitializeComponent();
+
+            partNum = ranNum.Next(1, 4);
 
             body = new Image[20];
             body[0] = Properties.Resources.Flash_Head;
@@ -43,12 +53,46 @@ namespace Picture_Imperfect
 
         private void CopyScreen_Paint(object sender, PaintEventArgs e)
         {
-            e.Graphics.DrawImage(body[6], 0, 0, 800, 750); //Flash shirt
-            e.Graphics.DrawImage(body[7], 0, 0, 800, 750); //Flash symbol
-            e.Graphics.DrawImage(body[4], 0, 0, 800, 750); //Flash head
-            e.Graphics.DrawImage(body[5], 0, 0, 800, 750); //Flash mouth     
+            
+            //flash
+            if(partNum == 1)
+            {
+                shirt = 2;
+                symbol = 3;
+                head = 0;
+                mouth = 1;
+                e.Graphics.DrawImage(body[shirt], 0, 0, 800, 750); // shirt
+                e.Graphics.DrawImage(body[symbol], 0, 0, 800, 750); // symbol
+                e.Graphics.DrawImage(body[head], 0, 0, 800, 750); // head
+                e.Graphics.DrawImage(body[mouth], 0, 0, 800, 750); // mouth 
+            }
+            //superman
+            if (partNum == 2)
+            {
+                shirt = 6;
+                symbol = 7;
+                head = 4;
+                mouth = 5;
+                e.Graphics.DrawImage(body[shirt], 0, 0, 800, 750); // shirt
+                e.Graphics.DrawImage(body[symbol], 0, 0, 800, 750); // symbol
+                e.Graphics.DrawImage(body[head], 0, 0, 800, 750); // head
+                e.Graphics.DrawImage(body[mouth], 0, 0, 800, 750); // mouth 
+            }
 
-         }
+            //flash
+            if (partNum == 3)
+            {
+                shirt = 10;
+                symbol = 11;
+                head = 8;
+                mouth = 9;
+                e.Graphics.DrawImage(body[shirt], 0, 0, 800, 750); // shirt
+                e.Graphics.DrawImage(body[symbol], 0, 0, 800, 750); // symbol
+                e.Graphics.DrawImage(body[head], 0, 0, 800, 750); // head
+                e.Graphics.DrawImage(body[mouth], 0, 0, 800, 750); // mouth 
+            }
+
+        }
 
         private void CopyScreen_Load(object sender, EventArgs e)
         {

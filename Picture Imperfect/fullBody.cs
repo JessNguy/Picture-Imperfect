@@ -8,6 +8,13 @@ namespace Picture_Imperfect
 {
     class fullBody
     {
-        //http://icscentral.pbworks.com/w/page/36393717/Course%20Outline%20ICS4U, shared notes
+        public string head, mouth, shirt, symbol;
+        public fullBody(string _head, string _mouth, string _shirt, string _symbol)
+        {
+            head = _head;
+            mouth = _mouth;
+            shirt = _shirt;
+            symbol = _symbol;
+        }
     }
 }
